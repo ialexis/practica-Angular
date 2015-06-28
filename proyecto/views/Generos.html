@@ -6,8 +6,12 @@
             <tr elemento-tabla ng-repeat="pelicula in peliculas | orderBy:['release_date', 'original_title']" model="pelicula">
             </tr>
     -->
-    <tr elemento-tabla-genero ng-repeat="genero in generos | orderBy:['name']" model="genero"">
+<!--    <tr elemento-tabla-genero ng-repeat="genero in generos | orderBy:['name']" model="genero">
         <td>{{genero.name}}</td>
+    </tr>-->
+
+    <tr elemento-tabla-genero ng-repeat="genero in generos | orderBy:['name']" model=genero>
+
     </tr>
     </tbody>
 </table>

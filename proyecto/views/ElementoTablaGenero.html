@@ -1,10 +1,12 @@
 <tr>
     <td>{{model.name}}
     </td>
-    <td><span class="badge">{{model.origin}}</span>
+    <td>
+        <ul>
+            <li ng-repeat="album in model.albums">{{ album.title }}</li>
+        </ul>
     </td>
     <td>
-        <button  ng-hide="isFavorite(model.id)" ng-click="saveFavorite(model.id);">hacer favorito</button> <button ng-show="isFavorite(model.id)"  ng-click="deleteFavorite(model.id);">quitar favorito</button>
-        <!--<span ng-show="isFavorite(album.id)" style="cursor:pointer;">es favorito</span>-->
+        <span favoritos model-to-use='genero' id=model.name></span>
     </td>
 </tr>

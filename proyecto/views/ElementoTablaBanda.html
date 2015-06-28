@@ -10,7 +10,6 @@
     </td>
 
     <td>
-        <button  ng-hide="isFavorite(model.id)" ng-click="saveFavorite(model.id);">hacer favorito</button> <button ng-show="isFavorite(model.id)"  ng-click="deleteFavorite(model.id);">quitar favorito</button>
-        <!--<span ng-show="isFavorite(album.id)" style="cursor:pointer;">es favorito</span>-->
+        <span favoritos model-to-use='banda' id=model.name></span>
     </td>
 </tr>

@@ -10,7 +10,7 @@ angular
 		$routeSegmentProvider.when( "/albums", "albums" );
 		$routeSegmentProvider.when( "/bandas", "bandas" );
 		$routeSegmentProvider.when( "/generos", "generos" );
-		$routeSegmentProvider.when( "/peliculas/:id/detalles", "album_detalles" )
+
 		
 		$routeSegmentProvider.segment( "albums", {
 			controller: "AlbumsCtrl",
@@ -27,10 +27,7 @@ angular
             templateUrl: "views/Generos.html"
         });
 
-        $routeSegmentProvider.segment( "album_detalles", {
-            controller: "GenerosCtrl",
-            templateUrl: "views/Generos.html"
-        });
+
 
 
 		$routeProvider.otherwise({

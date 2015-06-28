@@ -1,7 +1,6 @@
 /**
  * Created by Ivan on 23/06/15.
  */
-
 angular
     .module("jeviteca")
     .directive("elementoTablaGenero", function() {
@@ -19,6 +18,5 @@ angular
         };
 
     });
-
 
 
