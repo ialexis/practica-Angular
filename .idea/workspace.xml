@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1982895-73a0-43e7-b9a0-acb2c8dbbfed" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proyecto/scripts/controllers/DetallePelicula.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proyecto/scripts/controllers/DetalleSerie.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/scripts/controllers/BandasCtrl.js" afterPath="$PROJECT_DIR$/proyecto/scripts/controllers/BandasCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/views/ElementoTablaBanda.html" afterPath="$PROJECT_DIR$/proyecto/views/ElementoTablaBanda.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/views/ElementoTablaGenero.html" afterPath="$PROJECT_DIR$/proyecto/views/ElementoTablaGenero.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/scripts/directives/ElementoTablaGenero.js" afterPath="$PROJECT_DIR$/proyecto/scripts/directives/ElementoTablaGenero.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/views/Generos.html" afterPath="$PROJECT_DIR$/proyecto/views/Generos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/scripts/controllers/GenerosCtrl.js" afterPath="$PROJECT_DIR$/proyecto/scripts/controllers/GenerosCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/scripts/app.js" afterPath="$PROJECT_DIR$/proyecto/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/index.html" afterPath="$PROJECT_DIR$/proyecto/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto/scripts/directives/Favoritos.js" afterPath="$PROJECT_DIR$/proyecto/scripts/directives/Favoritos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practica Angular.iws" />
@@ -44,16 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElementoTablaAlbum.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proyecto/scripts/directives/ElementoTablaAlbum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Generos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proyecto/views/Generos.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataService.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proyecto/scripts/services/DataService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Favoritos.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proyecto/scripts/directives/Favoritos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.14754099">
+              <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -142,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/proyecto/scripts/directives/Favoritos.js" />
         <option value="$PROJECT_DIR$/proyecto/views/ElementoTablaBanda.html" />
         <option value="$PROJECT_DIR$/proyecto/scripts/controllers/BandasCtrl.js" />
         <option value="$PROJECT_DIR$/proyecto/scripts/controllers/GenerosCtrl.js" />
@@ -151,6 +140,7 @@
         <option value="$PROJECT_DIR$/proyecto/views/Generos.html" />
         <option value="$PROJECT_DIR$/proyecto/scripts/directives/ElementoTablaGenero.js" />
         <option value="$PROJECT_DIR$/proyecto/views/ElementoTablaGenero.html" />
+        <option value="$PROJECT_DIR$/proyecto/scripts/directives/Favoritos.js" />
       </list>
     </option>
   </component>
@@ -461,14 +451,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/proyecto/scripts/directives/Favoritos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proyecto/bands.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -608,7 +590,15 @@
     <entry file="file://$PROJECT_DIR$/proyecto/scripts/services/DataService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto/scripts/directives/Favoritos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14754099">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
           <folding />
         </state>
       </provider>
