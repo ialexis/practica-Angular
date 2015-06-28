@@ -1,0 +1,20 @@
+<tr>
+    <td>
+        <img ng-src="resources/img/{{ ::model.image }}" ng-alt="{{ ::model.image }}" />
+    </td>
+    <td>{{model.title}}
+    </td>
+    <td><span class="badge">{{model.year}}</span>
+    </td>
+    </td>
+    <td>
+        <ul>
+            <li ng-repeat="tracklist in model.tracklist">{{ tracklist }}</li>
+        </ul>
+    </td>
+    <td>
+        <!--<button  ng-hide="isFavorite(model.id)" ng-click="saveFavorite(model.id);">hacer favorito</button> <button ng-show="isFavorite(model.id)"  ng-click="deleteFavorite(model.id);">quitar favorito</button>-->
+        <span favoritos model-to-use='album' id=model.id></span>
+        <!--<span ng-show="isFavorite(album.id)" style="cursor:pointer;">es favorito</span>-->
+    </td>
+</tr>

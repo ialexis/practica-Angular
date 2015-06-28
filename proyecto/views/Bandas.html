@@ -1,0 +1,25 @@
+
+<h3>Bandas</h3>
+<!--
+<table class="table table-striped">
+	<tbody>
+		&lt;!&ndash;<tr elemento-tabla ng-repeat="serie in series" model="serie"></tr>&ndash;&gt;
+		<tr ng-repeat="banda in bandas">
+			<td>{{banda.name}}</td>
+		</tr>
+	</tbody>
+</table>
+-->
+
+<table class="table table-striped">
+	<tbody>
+	<!--
+            <tr elemento-tabla ng-repeat="pelicula in peliculas | orderBy:['release_date', 'original_title']" model="pelicula">
+            </tr>
+    -->
+	<tr elemento-tabla-banda ng-repeat="banda in bandas | orderBy:['name']" model="banda">
+
+	</tr>
+
+	</tbody>
+</table>

@@ -1,0 +1,21 @@
+
+<h3>Albums</h3>
+<table class="table table-striped">
+	<tbody>
+<!--
+		<tr elemento-tabla ng-repeat="pelicula in peliculas | orderBy:['release_date', 'original_title']" model="pelicula">
+		</tr>
+-->
+		<tr elemento-tabla-album ng-repeat="album in albums | orderBy:['title']" model="album">
+			<td>{{album.title}}
+			</td>
+			<td><span class="badge">{{album.year}}</span>
+			</td>
+			<td>
+				<button  ng-hide="isFavorite(album.id)" ng-click="saveFavorite(album.id);">hacer favorito</button> <button ng-show="isFavorite(album.id)"  ng-click="deleteFavorite(album.id);">quitar favorito</button>
+				<!--<span ng-show="isFavorite(album.id)" style="cursor:pointer;">es favorito</span>-->
+			</td>
+		</tr>
+
+	</tbody>
+</table>
